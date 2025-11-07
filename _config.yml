@@ -3,7 +3,11 @@ description: "Conocimientos básicos del mejor deporte del mundo"
 author: "Íñigo Fernández del Campo Viu"
 url: "https://inigoloo.github.io"
 baseurl: "/blog-jekyll"
-theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 
 
 # Build settings
