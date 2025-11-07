@@ -1,0 +1,22 @@
+title: "F1 en estado puro"
+description: "Conocimientos básicos del mejor deporte del mundo"
+author: "Íñigo Fernández del Campo Viu"
+url: "" # Set if deploying
+baseurl: "" # Set if deploying under subpath
+theme: minima
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Collections defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Íñigo Fernández del Campo Viu"
+      image: /assets/img/placeholder.jpg
